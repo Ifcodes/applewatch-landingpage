@@ -178,3 +178,12 @@ a:hover{
   cursor: pointer;
   border-bottom: 1px solid black;
 }
+.learn-btn{
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+.learn-btn:hover .line{
+  width: 4rem;
+  transition: 1s ease-out;
+  cursor: pointer;
+}
